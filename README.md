@@ -14,21 +14,21 @@ To reduce unnecessary comparisons, the program first groups files by their size.
 
 ## ✨ Features
 
-🔹 📁 Custom folder path input
+📁 Custom folder path input
 
-🔹 🔍 Recursive scanning of folders and subdirectories
+🔍 Recursive scanning of folders and subdirectories
 
-🔹 📊 Groups files by file size before comparison
+📊 Groups files by file size before comparison
 
-🔹 🔄 Compares file contents byte-by-byte
+🔄 Compares file contents byte-by-byte
 
-🔹 📋 Displays duplicate files in groups
+📋 Displays duplicate files in groups
 
-🔹 🗑️ Option to delete duplicates
+🗑️ Option to delete duplicates
 
-🔹 ⚠️ Handles invalid paths and file-opening errors
+⚠️ Handles invalid paths and file-opening errors
 
-🔹 💾 Shows when no duplicate files are found
+💾 Shows when no duplicate files are found
 
 ---
 
@@ -40,7 +40,7 @@ The program follows these steps:
    
    🔹 The user provides the path of the folder to scan.
 
-2. **Validate Path**
+2. **Validate folder Path**
    
    🔹 Checks whether the path exists.
    
@@ -118,7 +118,7 @@ KEEP ONE FILE & DELETE OTHER DUPLICATE COPIES
 | --------- | ------------------------------------------------------------------------------------- |
 | Language  | C++17                                                                                 |
 | Libraries | `<filesystem>`, `<fstream>`, `<vector>`, `<map>`, `<algorithm>`                       |
-| Concepts  | STL containers, file I/O, OOP, recursion over directories |
+| Concepts  | STL containers, file I/O, OOP, recursive directory traversal |
 
 ---
 
